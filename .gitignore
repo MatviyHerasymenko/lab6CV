@@ -1,2 +1,19 @@
-# Project exclude paths
-/.venv/
+# Віртуальне середовище та кеш Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# Важкі моделі та відеофайли
+models/*.caffemodel
+videos/*.mp4
+videos/*.avi
+output/*.mp4
+output/*.avi
+
+# Архіви
+*.zip
